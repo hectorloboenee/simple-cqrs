@@ -4,14 +4,19 @@
 using System.Reflection;
 using Autofac;
 using Microsoft.AspNetCore.Builder;
+using Simple.Cqrs.Common.infrastructure.Cqrs;
+using Simple.Cqrs.Common.infrastructure.IoC;
 
 namespace Simple.Cqrs.Common.infrastructure.Extensions;
 
 public static class CqrsExtension
 {
-    public static void AddCqrs(this WebApplicationBuilder builder, Assembly domainAssembly,
+    public static void UseCqrs(this WebApplicationBuilder builder, Assembly domainAssembly,
         Action<ContainerBuilder>? configure)
     {
-
+        builder.Host.AddAutofac((context, container) =>
+        {
+            container.AddCqrs(domainAssembly);
+        });
     }
 }

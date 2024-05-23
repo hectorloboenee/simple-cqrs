@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Builder;
+using Simple.Cqrs.Common.infrastructure.Extensions;
+using Simple.Cqrs.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var domainAssembly = typeof(Class1).Assembly;
+
+builder.UseCqrs(domainAssembly, containerBuilder => { });
 
 var app = builder.Build();
 

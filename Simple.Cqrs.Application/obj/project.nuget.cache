@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nlRWeKe7VUgXl8i77BpY5bd2htal2PsmeBARpV01Alu1P1Z8+mMAhJ3hq+fwL/G9a4jzGthA0HgUeo/U4ckknQ==",
+  "dgSpecHash": "s8fx0DHylOOjeOEi16TavnDs+f2GOrHyJ2OV0LGF6+wTmz8pl9pO3bCKuYaPSgj0rWJsr+yfLRHpIoahrt/nDw==",
   "success": true,
   "projectFilePath": "/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Application/Simple.Cqrs.Application.csproj",
   "expectedPackageFiles": [
+    "/home/mr-roboto/.nuget/packages/autofac/8.0.0/autofac.8.0.0.nupkg.sha512",
+    "/home/mr-roboto/.nuget/packages/autofac.extensions.dependencyinjection/9.0.0/autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/mr-roboto/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/home/mr-roboto/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
     "/home/mr-roboto/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/mr-roboto/.nuget/packages/microsoft.extensions.configuration/9.0.0-preview.4.24266.19/microsoft.extensions.configuration.9.0.0-preview.4.24266.19.nupkg.sha512",

@@ -12,4 +12,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Simple.Cqrs.Common\Simple.Cqrs.Common.csproj" />
+      <ProjectReference Include="..\Simple.Cqrs.Domain\Simple.Cqrs.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

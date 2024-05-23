@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Cqrs.Common", "Simpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Cqrs.Application", "Simple.Cqrs.Application\Simple.Cqrs.Application.csproj", "{2F3CB284-2A95-4F6E-884D-BE424B72261A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Cqrs.Domain", "Simple.Cqrs.Domain\Simple.Cqrs.Domain.csproj", "{1BE1B660-5CCC-4F6A-81DB-33EAD88EE015}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE1B660-5CCC-4F6A-81DB-33EAD88EE015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE1B660-5CCC-4F6A-81DB-33EAD88EE015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE1B660-5CCC-4F6A-81DB-33EAD88EE015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE1B660-5CCC-4F6A-81DB-33EAD88EE015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
