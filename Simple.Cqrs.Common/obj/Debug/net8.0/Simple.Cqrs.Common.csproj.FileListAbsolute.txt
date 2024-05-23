@@ -1,0 +1,6 @@
+/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Common/obj/Debug/net8.0/Simple.Cqrs.Common.csproj.AssemblyReference.cache
+/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Common/obj/Debug/net8.0/Simple.Cqrs.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Common/obj/Debug/net8.0/Simple.Cqrs.Common.AssemblyInfoInputs.cache
+/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Common/obj/Debug/net8.0/Simple.Cqrs.Common.AssemblyInfo.cs
+/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Common/obj/Debug/net8.0/Simple.Cqrs.Common.csproj.CoreCompileInputs.cache
+/home/mr-roboto/Documents/projects/simple-cqrs/Simple.Cqrs.Common/obj/Debug/net8.0/Simple.Cqrs.Common.sourcelink.json

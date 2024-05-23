@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Cqrs.Common", "Simple.Cqrs.Common\Simple.Cqrs.Common.csproj", "{0B6C0F65-4672-43E3-A0B3-E3FED9B776E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.Cqrs.Application", "Simple.Cqrs.Application\Simple.Cqrs.Application.csproj", "{2F3CB284-2A95-4F6E-884D-BE424B72261A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0B6C0F65-4672-43E3-A0B3-E3FED9B776E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6C0F65-4672-43E3-A0B3-E3FED9B776E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B6C0F65-4672-43E3-A0B3-E3FED9B776E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3CB284-2A95-4F6E-884D-BE424B72261A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
