@@ -6,7 +6,7 @@ using Simple.Cqrs.Common.Exceptions;
 
 namespace Simple.Cqrs.Common.Cqrs.Validation;
 
-public class CommandValidator<TCommand> : AbstractValidator<TCommand>, ICommandValidator<TCommand>
+public abstract class CommandValidator<TCommand> : AbstractValidator<TCommand>, ICommandValidator<TCommand>
 {
     public async Task<Either<Ok, List<MessageValidation>>> Validate(TCommand command)
     {

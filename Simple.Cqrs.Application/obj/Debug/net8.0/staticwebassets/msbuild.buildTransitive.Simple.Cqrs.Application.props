@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/Simple.Cqrs.Application.props" />
-</Project>

@@ -9,6 +9,7 @@ using Simple.Cqrs.Common.Cqrs.Query;
 using Simple.Cqrs.Common.Cqrs.Query.Bus;
 using Simple.Cqrs.Common.Cqrs.Validation;
 using Simple.Cqrs.Common.Cqrs.Validation.Bus;
+using Simple.Cqrs.Common.infrastructure.IoC;
 
 namespace Simple.Cqrs.Common.infrastructure.Cqrs;
 
@@ -26,6 +27,10 @@ public static class ConfigureCqrs
         containerBuilder.RegisterDecorator<ValidationBusDecorator, ICommandBus>();
 
         containerBuilder.RegisterType<QueryBus>().As<IQueryBus>();
+
+        containerBuilder.RegisterModule(new RegisterByInterfaces(domainAssembly, typeof(ICommandHandler<>)));
+        containerBuilder.RegisterModule(new RegisterByInterfaces(domainAssembly, typeof(ICommandValidator<>)));
+        containerBuilder.RegisterModule(new RegisterByInterfaces(domainAssembly, typeof(IQueryHandler<,>)));
 
         return containerBuilder;
     }
